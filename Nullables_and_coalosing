@@ -1,0 +1,14 @@
+using System;
+class Program {
+  static void Main() {
+    //Console.WriteLine("Write your first name : ");
+   int? a = null;
+    int? b=null;
+    int c =100;
+    int? r =  a??b??c;
+    Console.WriteLine(r);
+    
+    
+  }
+  
+}
