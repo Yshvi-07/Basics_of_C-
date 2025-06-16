@@ -1,0 +1,14 @@
+using System;
+class Program {
+  static void Main() {
+    Console.WriteLine("Write your first name : ");
+    string firstName = Console.ReadLine();
+    
+    Console.WriteLine("Enter your Last Name : ");
+    string lastName = Console.ReadLine();
+    
+    Console.WriteLine("Your full name is : {0} {1}",firstName,lastName);
+    
+  }
+  
+}
