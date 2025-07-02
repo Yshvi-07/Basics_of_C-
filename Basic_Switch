@@ -1,0 +1,22 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    int a = int.Parse(Console.ReadLine());
+    switch(a){
+        case 10:
+        Console.WriteLine("Your number is 10");
+        break;
+        case 20:
+        Console.WriteLine("Your number is 20");
+        break;
+        case 30:
+        Console.WriteLine("Your number is 30");
+        break;
+        default:
+        Console.WriteLine("Your number is not found");
+        break;
+        
+        
+    }
+  }
+}
