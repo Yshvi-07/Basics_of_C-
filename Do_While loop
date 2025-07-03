@@ -1,0 +1,28 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    string choice = string.Empty;
+    do{
+    Console.Write("Enter the number please : ");
+   
+    
+    int b = int.Parse(Console.ReadLine());
+    //int t = 0 ;
+    while(b<=10){
+        Console.Write(b);
+        Console.Write(" ");
+        b+=2;
+        
+        
+    }
+    do{
+    Console.WriteLine("Do you want to continue this or not ? Yes or No");
+    choice = Console.ReadLine().ToUpper();
+    if(choice!="YES" && choice!="NO"){
+        Console.WriteLine("Invaliod Choice of the customers");
+    }
+    }while(choice!="YES" && choice!="NO");
+    
+    }while(choice == "YES");
+  }
+}
